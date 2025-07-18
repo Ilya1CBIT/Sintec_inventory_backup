@@ -29,7 +29,7 @@
           <PropertyValue z:Id="i6">
             <PropertyName>Result</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dt_recieved</_expression>
+            <_expression>dt_received</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -45,7 +45,7 @@
           <PropertyValue z:Id="i8">
             <PropertyName>FileName</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>in_str_recieved_filePath</_expression>
+            <_expression>in_str_received_filePath</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -78,9 +78,9 @@
             <_dataType>Value</_dataType>
             <_expression i:nil="true" />
             <_screenShotBase64 i:nil="true" />
-            <_value xmlns:d7p1="http://www.w3.org/2001/XMLSchema" i:type="d7p1:string">while (dt_recieved.Columns.Count &gt; 20)
+            <_value xmlns:d7p1="http://www.w3.org/2001/XMLSchema" i:type="d7p1:string">while (dt_received.Columns.Count &gt; 20)
 {
-    dt_recieved.Columns.RemoveAt(20);
+    dt_received.Columns.RemoveAt(20);
 }
 </_value>
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -111,7 +111,7 @@
           <PropertyValue z:Id="i14">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dt_recieved.AsEnumerable()
+            <_expression>dt_received.AsEnumerable()
         .SkipWhile(row =&gt; !row["A"].ToString().Equals("Код"))
         .CopyToDataTable()</_expression>
             <_screenShotBase64 i:nil="true" />
@@ -121,7 +121,7 @@
           <PropertyValue z:Id="i15">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dt_recieved</_expression>
+            <_expression>dt_received</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -175,7 +175,7 @@
               <PropertyValue z:Id="i21">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>dt_recieved.Rows[0][int_i].ToString()</_expression>
+                <_expression>dt_received.Rows[0][int_i].ToString()</_expression>
                 <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -209,7 +209,7 @@
                       <PropertyValue z:Id="i26">
                         <PropertyName>Value</PropertyName>
                         <_dataType>Expression</_dataType>
-                        <_expression>dt_recieved.Columns[int_i].ColumnName</_expression>
+                        <_expression>dt_received.Columns[int_i].ColumnName</_expression>
                         <_screenShotBase64 i:nil="true" />
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -315,7 +315,7 @@
               <PropertyValue z:Id="i34">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression>1</_expression>
+                <_expression>0</_expression>
                 <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -444,7 +444,7 @@
               <PropertyValue z:Id="i47">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
-                <_expression> dt_recieved.Columns[int_i].ColumnName</_expression>
+                <_expression> dt_received.Columns[int_i].ColumnName</_expression>
                 <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -517,7 +517,7 @@
           <PropertyValue z:Id="i53">
             <PropertyName>Condition</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>int_i &lt; dt_recieved.Columns.Count</_expression>
+            <_expression>int_i &lt; dt_received.Columns.Count</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -547,7 +547,7 @@
           <PropertyValue z:Id="i56">
             <PropertyName>BaseDataTable</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dt_recieved</_expression>
+            <_expression>dt_received</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -569,7 +569,7 @@
           <PropertyValue z:Id="i58">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dt_recieved.AsEnumerable()
+            <_expression>dt_received.AsEnumerable()
     .Where(row =&gt; row.Field&lt;string&gt;("Отв-й") == in_str_surname)
     .CopyToDataTable()</_expression>
             <_screenShotBase64 i:nil="true" />
@@ -579,7 +579,7 @@
           <PropertyValue z:Id="i59">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dt_recieved</_expression>
+            <_expression>dt_received</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -594,11 +594,148 @@
         <_activityFullName>BR.Core.Base.Assign</_activityFullName>
       </AbstractStep>
       <AbstractStep z:Id="i60" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i61" i:type="ExecutedStep">
+            <Childs />
+            <Id>9087eb64-f121-4c0f-a8ce-fc7a4d6e1b77</Id>
+            <Parent z:Ref="i60" />
+            <PropertyValues>
+              <PropertyValue z:Id="i62">
+                <PropertyName>Value</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>row["Код"].ToString()</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i63">
+                <PropertyName>To</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_receivedCode</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i64" i:type="ExecutedStep">
+            <Childs />
+            <Id>a8ffe0be-c8a0-46c7-a09c-718e105c1479</Id>
+            <Parent z:Ref="i60" />
+            <PropertyValues>
+              <PropertyValue z:Id="i65">
+                <PropertyName>Value</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>row["Отв-й"].ToString()</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i66">
+                <PropertyName>To</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_receivedResponsible</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i67" i:type="ExecutedStep">
+            <Childs />
+            <Id>1047ebaf-b3f9-4a89-8351-7ef3ae76362a</Id>
+            <Parent z:Ref="i60" />
+            <PropertyValues>
+              <PropertyValue z:Id="i68">
+                <PropertyName>DemandValue</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_receivedCode</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i69">
+                <PropertyName>SheetName</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>in_str_sheetName</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i70">
+                <PropertyName>FileName</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>in_str_main_filePath</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <Id>138c8e8b-faa5-40aa-b409-3dce44e984f5</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i71">
+            <PropertyName>Collection</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>dt_received.Rows</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i72">
+            <PropertyName>Iterator</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>row</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i73">
+            <PropertyName>Counter</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression></_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i74" i:type="ExecutedStep">
         <Childs />
         <Id>a17c5068-8ec5-4a3f-9233-73a1792f378f</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i61">
+          <PropertyValue z:Id="i75">
             <PropertyName>DemandValue</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"130491"</_expression>
@@ -606,7 +743,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i62">
+          <PropertyValue z:Id="i76">
             <PropertyName>Result</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>test</_expression>
@@ -614,7 +751,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i63">
+          <PropertyValue z:Id="i77">
             <PropertyName>SheetName</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Данные"</_expression>
@@ -622,7 +759,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i64">
+          <PropertyValue z:Id="i78">
             <PropertyName>FileName</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>@"IN\Общий_отчет_по_запасам_СиМ_ГП_ПФ_ТП_текущ_остаток_на_27_06_25_для.xlsx"</_expression>
@@ -639,7 +776,7 @@
         <Text></Text>
         <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i65" i:type="ExecutedStep">
+      <AbstractStep z:Id="i79" i:type="ExecutedStep">
         <Childs />
         <Id>ecccf255-53d0-4861-aabf-3cd6900f79bb</Id>
         <Parent z:Ref="i2" />
@@ -667,21 +804,21 @@
   <Name>File_Processing.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i66">
+    <Parameter z:Id="i80">
       <DefaultValueExpression>"Данные"</DefaultValueExpression>
       <Description>Навзание целевого листа из конфига</Description>
       <Name>in_str_sheetName</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i67">
+    <Parameter z:Id="i81">
       <DefaultValueExpression>@"IN\Общий_отчет_по_запасам_СиМ_ГП_ПФ_ТП_текущ_остаток_на_27_06_25_для.xlsx"</DefaultValueExpression>
       <Description>путь до полученного файла с почты</Description>
-      <Name>in_str_recieved_filePath</Name>
+      <Name>in_str_received_filePath</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i68">
+    <Parameter z:Id="i82">
       <DefaultValueExpression>"Грачев"</DefaultValueExpression>
       <Description></Description>
       <Name>in_str_surname</Name>
@@ -697,41 +834,53 @@
   </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
-    <d2p1:Variable z:Id="i69">
+    <d2p1:Variable z:Id="i83">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description>Таблица из полученного excel файла</d2p1:Description>
-      <d2p1:Name>dt_recieved</d2p1:Name>
+      <d2p1:Name>dt_received</d2p1:Name>
       <d2p1:TypeString>System.Data.DataTable</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i70">
+    <d2p1:Variable z:Id="i84">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>int_i</d2p1:Name>
       <d2p1:TypeString>System.Int32</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i71">
+    <d2p1:Variable z:Id="i85">
       <d2p1:DefaultValueExpression>new List&lt;string&gt;()</d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>lst_usedNames</d2p1:Name>
       <d2p1:TypeString>System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i72">
+    <d2p1:Variable z:Id="i86">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_baseName</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i73">
+    <d2p1:Variable z:Id="i87">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_newName</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i74">
+    <d2p1:Variable z:Id="i88">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>int_n</d2p1:Name>
       <d2p1:TypeString>System.Int32</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i89">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description>Текущее значение из колонки Код</d2p1:Description>
+      <d2p1:Name>str_receivedCode</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i90">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description>Текущее значение из колонки Отв-й</d2p1:Description>
+      <d2p1:Name>str_receivedResponsible</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
   </Variables>
   <Version i:nil="true" />
