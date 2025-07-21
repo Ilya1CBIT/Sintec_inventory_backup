@@ -55,6 +55,10 @@
       <IsMain>false</IsMain>
       <Path>File_Processing.pix</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i15">
+      <IsMain>false</IsMain>
+      <Path>SortExcelCellsFunction.pix</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>ReFramework_2.0</Name>
