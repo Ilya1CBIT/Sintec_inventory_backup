@@ -128,7 +128,147 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i15" i:type="CommentStep">
+      <AbstractStep z:Id="i15" i:type="ExecutedStep">
+        <Childs />
+        <Id>37345b92-ba49-485c-800e-dd92b5d3516d</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i16">
+            <PropertyName>Cell</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"AT7"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i17">
+            <PropertyName>IsFormula</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value xmlns:d7p1="http://www.w3.org/2001/XMLSchema" i:type="d7p1:boolean">true</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i18">
+            <PropertyName>SheetName</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>in_str_sheetName</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i19">
+            <PropertyName>FileName</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>in_str_main_filePath</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i20">
+            <PropertyName>RowNumber</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>136</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i21">
+            <PropertyName>ColNumber</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>47</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i22">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>test</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i23" i:type="ExecutedStep">
+        <Childs />
+        <Id>96f699ce-e2bb-4662-bf1f-f32c2ad263a6</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i24">
+            <PropertyName>Cell</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"AV7"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i25">
+            <PropertyName>IsFormula</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value xmlns:d7p1="http://www.w3.org/2001/XMLSchema" i:type="d7p1:boolean">true</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i26">
+            <PropertyName>SheetName</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>in_str_sheetName</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i27">
+            <PropertyName>FileName</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>in_str_main_filePath</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i28">
+            <PropertyName>RowNumber</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>136</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i29">
+            <PropertyName>ColNumber</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>47</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i30">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>test1</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i31" i:type="CommentStep">
         <Childs />
         <Id>53de45fc-2e45-4e90-bfeb-d896397f358d</Id>
         <Parent z:Ref="i2" />
@@ -137,12 +277,12 @@
         <IsCollapsed>false</IsCollapsed>
         <Text>УДАЛИТЬ В ПРОДЕ!!!!↑↑↑</Text>
       </AbstractStep>
-      <AbstractStep z:Id="i16" i:type="ExecutedStep">
+      <AbstractStep z:Id="i32" i:type="ExecutedStep">
         <Childs />
         <Id>d5537f06-302c-46ed-822e-af9f3ba535b4</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i17">
+          <PropertyValue z:Id="i33">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>dt_received.AsEnumerable()
@@ -152,7 +292,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i18">
+          <PropertyValue z:Id="i34">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>dt_received</_expression>
@@ -169,12 +309,12 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.Assign</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i19" i:type="ExecutedStep">
+      <AbstractStep z:Id="i35" i:type="ExecutedStep">
         <Childs />
         <Id>6039d95e-32d1-4482-a8da-620c094331ea</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i20">
+          <PropertyValue z:Id="i36">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>0</_expression>
@@ -182,7 +322,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i21">
+          <PropertyValue z:Id="i37">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>int_i</_expression>
@@ -199,14 +339,14 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.Assign</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i22" i:type="ExecutedStep">
+      <AbstractStep z:Id="i38" i:type="ExecutedStep">
         <Childs>
-          <AbstractStep z:Id="i23" i:type="ExecutedStep">
+          <AbstractStep z:Id="i39" i:type="ExecutedStep">
             <Childs />
             <Id>7998f3d0-578d-461a-b591-1b9bcac4b864</Id>
-            <Parent z:Ref="i22" />
+            <Parent z:Ref="i38" />
             <PropertyValues>
-              <PropertyValue z:Id="i24">
+              <PropertyValue z:Id="i40">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>dt_received.Rows[0][int_i].ToString()</_expression>
@@ -214,7 +354,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i25">
+              <PropertyValue z:Id="i41">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_baseName</_expression>
@@ -231,16 +371,16 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i26" i:type="ExecutedStep">
+          <AbstractStep z:Id="i42" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i27" i:type="ExecutedStep">
+              <AbstractStep z:Id="i43" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i28" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i44" i:type="ExecutedStep">
                     <Childs />
                     <Id>9207d555-8063-4e60-97ee-4645a38d57c1</Id>
-                    <Parent z:Ref="i27" />
+                    <Parent z:Ref="i43" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i29">
+                      <PropertyValue z:Id="i45">
                         <PropertyName>Value</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>dt_received.Columns[int_i].ColumnName</_expression>
@@ -248,7 +388,7 @@
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
-                      <PropertyValue z:Id="i30">
+                      <PropertyValue z:Id="i46">
                         <PropertyName>To</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>str_baseName</_expression>
@@ -267,7 +407,7 @@
                   </AbstractStep>
                 </Childs>
                 <Id>039b9d35-b51a-4a45-9a0b-2e1a6a95cd2f</Id>
-                <Parent z:Ref="i26" />
+                <Parent z:Ref="i42" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
@@ -277,10 +417,10 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i31" i:type="ExecutedStep">
+              <AbstractStep z:Id="i47" i:type="ExecutedStep">
                 <Childs />
                 <Id>1f8c48ed-63e9-4691-84b0-c9d7445d58a7</Id>
-                <Parent z:Ref="i26" />
+                <Parent z:Ref="i42" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
@@ -292,9 +432,9 @@
               </AbstractStep>
             </Childs>
             <Id>5f2bed9c-f81c-4623-8589-330644c0702f</Id>
-            <Parent z:Ref="i22" />
+            <Parent z:Ref="i38" />
             <PropertyValues>
-              <PropertyValue z:Id="i32">
+              <PropertyValue z:Id="i48">
                 <PropertyName>Condition</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_baseName == null || str_baseName.Trim() == ""</_expression>
@@ -311,12 +451,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.If</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i33" i:type="ExecutedStep">
+          <AbstractStep z:Id="i49" i:type="ExecutedStep">
             <Childs />
             <Id>8e941a01-8100-4e6c-80dc-da67563f6eaa</Id>
-            <Parent z:Ref="i22" />
+            <Parent z:Ref="i38" />
             <PropertyValues>
-              <PropertyValue z:Id="i34">
+              <PropertyValue z:Id="i50">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_baseName</_expression>
@@ -324,7 +464,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i35">
+              <PropertyValue z:Id="i51">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_newName</_expression>
@@ -341,12 +481,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i36" i:type="ExecutedStep">
+          <AbstractStep z:Id="i52" i:type="ExecutedStep">
             <Childs />
             <Id>1c31add2-c9c7-41cc-baba-f444bf6480bd</Id>
-            <Parent z:Ref="i22" />
+            <Parent z:Ref="i38" />
             <PropertyValues>
-              <PropertyValue z:Id="i37">
+              <PropertyValue z:Id="i53">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>0</_expression>
@@ -354,7 +494,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i38">
+              <PropertyValue z:Id="i54">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>int_n</_expression>
@@ -371,14 +511,14 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i39" i:type="ExecutedStep">
+          <AbstractStep z:Id="i55" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i40" i:type="ExecutedStep">
+              <AbstractStep z:Id="i56" i:type="ExecutedStep">
                 <Childs />
                 <Id>685af960-4141-43b6-a027-2d010e0b16b1</Id>
-                <Parent z:Ref="i39" />
+                <Parent z:Ref="i55" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i41">
+                  <PropertyValue z:Id="i57">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>int_n+1</_expression>
@@ -386,7 +526,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i42">
+                  <PropertyValue z:Id="i58">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>int_n</_expression>
@@ -403,12 +543,12 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i43" i:type="ExecutedStep">
+              <AbstractStep z:Id="i59" i:type="ExecutedStep">
                 <Childs />
                 <Id>82c96741-858d-4abf-a19c-700353032cb4</Id>
-                <Parent z:Ref="i39" />
+                <Parent z:Ref="i55" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i44">
+                  <PropertyValue z:Id="i60">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_baseName.Trim() + "(" + int_n.ToString() + ")"</_expression>
@@ -416,7 +556,7 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i45">
+                  <PropertyValue z:Id="i61">
                     <PropertyName>To</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_newName</_expression>
@@ -435,9 +575,9 @@
               </AbstractStep>
             </Childs>
             <Id>1dad539c-37f3-449f-9e12-b7db5cbbccba</Id>
-            <Parent z:Ref="i22" />
+            <Parent z:Ref="i38" />
             <PropertyValues>
-              <PropertyValue z:Id="i46">
+              <PropertyValue z:Id="i62">
                 <PropertyName>Condition</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>lst_usedNames.Contains(str_newName)</_expression>
@@ -445,7 +585,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i47">
+              <PropertyValue z:Id="i63">
                 <PropertyName>Counter</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression></_expression>
@@ -462,12 +602,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.LoopWhile</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i48" i:type="ExecutedStep">
+          <AbstractStep z:Id="i64" i:type="ExecutedStep">
             <Childs />
             <Id>ebc6cdb5-d523-4e2c-b34a-85090665a76e</Id>
-            <Parent z:Ref="i22" />
+            <Parent z:Ref="i38" />
             <PropertyValues>
-              <PropertyValue z:Id="i49">
+              <PropertyValue z:Id="i65">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_newName</_expression>
@@ -475,7 +615,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i50">
+              <PropertyValue z:Id="i66">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression> dt_received.Columns[int_i].ColumnName</_expression>
@@ -492,12 +632,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i51" i:type="ExecutedStep">
+          <AbstractStep z:Id="i67" i:type="ExecutedStep">
             <Childs />
             <Id>e99b91b6-f662-4e6a-9ccb-e6760cfcd1d5</Id>
-            <Parent z:Ref="i22" />
+            <Parent z:Ref="i38" />
             <PropertyValues>
-              <PropertyValue z:Id="i52">
+              <PropertyValue z:Id="i68">
                 <PropertyName>CSCode</PropertyName>
                 <_dataType>Value</_dataType>
                 <_expression i:nil="true" />
@@ -514,12 +654,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i53" i:type="ExecutedStep">
+          <AbstractStep z:Id="i69" i:type="ExecutedStep">
             <Childs />
             <Id>9216bc92-9eb4-4e25-a5cd-ae14cec99e24</Id>
-            <Parent z:Ref="i22" />
+            <Parent z:Ref="i38" />
             <PropertyValues>
-              <PropertyValue z:Id="i54">
+              <PropertyValue z:Id="i70">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>int_i+1</_expression>
@@ -527,7 +667,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i55">
+              <PropertyValue z:Id="i71">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>int_i</_expression>
@@ -548,7 +688,7 @@
         <Id>7e4c3582-2f60-4a68-8633-263232ac8740</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i56">
+          <PropertyValue z:Id="i72">
             <PropertyName>Condition</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>int_i &lt; dt_received.Columns.Count</_expression>
@@ -556,7 +696,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i57">
+          <PropertyValue z:Id="i73">
             <PropertyName>Counter</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression></_expression>
@@ -573,12 +713,12 @@
         <Text>Цикл пока(переименование столбцов таблицы)</Text>
         <_activityFullName>BR.Core.Base.LoopWhile</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i58" i:type="ExecutedStep">
+      <AbstractStep z:Id="i74" i:type="ExecutedStep">
         <Childs />
         <Id>916b7bff-d7c1-49ff-a13e-e983da61139f</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i59">
+          <PropertyValue z:Id="i75">
             <PropertyName>BaseDataTable</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>dt_received</_expression>
@@ -595,12 +735,12 @@
         <Text>Удалить строку с названиями колонок</Text>
         <_activityFullName>Activities.BaseCollections.DT.DeleteRow</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i60" i:type="ExecutedStep">
+      <AbstractStep z:Id="i76" i:type="ExecutedStep">
         <Childs />
         <Id>e2ffd45c-5542-4b15-b1ad-c84dfc5efcb9</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i61">
+          <PropertyValue z:Id="i77">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>dt_received.AsEnumerable()
@@ -610,7 +750,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i62">
+          <PropertyValue z:Id="i78">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>dt_received</_expression>
@@ -627,14 +767,14 @@
         <Text>Фильтрация по ответсвенному</Text>
         <_activityFullName>BR.Core.Base.Assign</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i63" i:type="ExecutedStep">
+      <AbstractStep z:Id="i79" i:type="ExecutedStep">
         <Childs>
-          <AbstractStep z:Id="i64" i:type="ExecutedStep">
+          <AbstractStep z:Id="i80" i:type="ExecutedStep">
             <Childs />
             <Id>9087eb64-f121-4c0f-a8ce-fc7a4d6e1b77</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i65">
+              <PropertyValue z:Id="i81">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>row[@"Код"].ToString()</_expression>
@@ -642,7 +782,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i66">
+              <PropertyValue z:Id="i82">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_receivedCode</_expression>
@@ -659,12 +799,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i67" i:type="ExecutedStep">
+          <AbstractStep z:Id="i83" i:type="ExecutedStep">
             <Childs />
             <Id>a8ffe0be-c8a0-46c7-a09c-718e105c1479</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i68">
+              <PropertyValue z:Id="i84">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>row[@"Отв-й"].ToString()</_expression>
@@ -672,7 +812,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i69">
+              <PropertyValue z:Id="i85">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_receivedResponsible</_expression>
@@ -689,12 +829,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i70" i:type="ExecutedStep">
+          <AbstractStep z:Id="i86" i:type="ExecutedStep">
             <Childs />
             <Id>30f0e290-16c2-47d6-9300-9538f6bf1143</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i71">
+              <PropertyValue z:Id="i87">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>row[@"Отв-й ОКП \ БМ БХ"].ToString()</_expression>
@@ -702,7 +842,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i72">
+              <PropertyValue z:Id="i88">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_receivedExtraResponsible</_expression>
@@ -719,12 +859,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i73" i:type="ExecutedStep">
+          <AbstractStep z:Id="i89" i:type="ExecutedStep">
             <Childs />
             <Id>1047ebaf-b3f9-4a89-8351-7ef3ae76362a</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i74">
+              <PropertyValue z:Id="i90">
                 <PropertyName>DemandValue</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_receivedCode</_expression>
@@ -732,7 +872,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i75">
+              <PropertyValue z:Id="i91">
                 <PropertyName>SheetName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_sheetName</_expression>
@@ -740,7 +880,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i76">
+              <PropertyValue z:Id="i92">
                 <PropertyName>FileName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_main_filePath</_expression>
@@ -748,7 +888,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i77">
+              <PropertyValue z:Id="i93">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>lst_foundCode</_expression>
@@ -765,12 +905,12 @@
             <Text></Text>
             <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i78" i:type="ExecutedStep">
+          <AbstractStep z:Id="i94" i:type="ExecutedStep">
             <Childs />
             <Id>6cb71dfe-cfe4-4ce2-8d43-a3a20f8ec938</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i79">
+              <PropertyValue z:Id="i95">
                 <PropertyName>DemandValue</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>"Отв-й"</_expression>
@@ -778,7 +918,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i80">
+              <PropertyValue z:Id="i96">
                 <PropertyName>SheetName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_sheetName</_expression>
@@ -786,7 +926,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i81">
+              <PropertyValue z:Id="i97">
                 <PropertyName>FileName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_main_filePath</_expression>
@@ -794,7 +934,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i82">
+              <PropertyValue z:Id="i98">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>lst_responsible_column</_expression>
@@ -811,12 +951,12 @@
             <Text></Text>
             <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i83" i:type="ExecutedStep">
+          <AbstractStep z:Id="i99" i:type="ExecutedStep">
             <Childs />
             <Id>5ace0456-f375-4469-9755-b0cc43b181e2</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i84">
+              <PropertyValue z:Id="i100">
                 <PropertyName>DemandValue</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>@"Отв-й ОКП \ БМ БХ"</_expression>
@@ -824,7 +964,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i85">
+              <PropertyValue z:Id="i101">
                 <PropertyName>SheetName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_sheetName</_expression>
@@ -832,7 +972,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i86">
+              <PropertyValue z:Id="i102">
                 <PropertyName>FileName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_main_filePath</_expression>
@@ -840,7 +980,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i87">
+              <PropertyValue z:Id="i103">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>lst_extraResponsible_column</_expression>
@@ -857,12 +997,12 @@
             <Text></Text>
             <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i88" i:type="ExecutedStep">
+          <AbstractStep z:Id="i104" i:type="ExecutedStep">
             <Childs />
             <Id>66b5aab9-7202-4e61-a910-98fc995aceae</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i89">
+              <PropertyValue z:Id="i105">
                 <PropertyName>FilePath</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>@"SortExcelCellsFunction.pix"</_expression>
@@ -870,18 +1010,18 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i90">
+              <PropertyValue z:Id="i106">
                 <PropertyName>Parameters</PropertyName>
                 <_dataType>Value</_dataType>
                 <_expression i:nil="true" />
                 <_screenShotBase64 i:nil="true" />
                 <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d9p1:ArrayOfArgumentItem">
-                  <d9p1:ArgumentItem z:Id="i91">
+                  <d9p1:ArgumentItem z:Id="i107">
                     <d9p1:ArgumentName>in_lst_cellAddresses</d9p1:ArgumentName>
                     <d9p1:Expression>lst_responsible_column</d9p1:Expression>
                     <d9p1:Type>List&lt;System.String&gt;</d9p1:Type>
                   </d9p1:ArgumentItem>
-                  <d9p1:ArgumentItem z:Id="i92">
+                  <d9p1:ArgumentItem z:Id="i108">
                     <d9p1:ArgumentName>out_lst_sorted</d9p1:ArgumentName>
                     <d9p1:Expression>lst_responsible_column</d9p1:Expression>
                     <d9p1:Type>List&lt;System.String&gt;</d9p1:Type>
@@ -898,12 +1038,12 @@
             <Text>Сортировать lst_responsible_column</Text>
             <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i93" i:type="ExecutedStep">
+          <AbstractStep z:Id="i109" i:type="ExecutedStep">
             <Childs />
             <Id>9b43ff32-9429-47ff-a103-1df0f02627e6</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i94">
+              <PropertyValue z:Id="i110">
                 <PropertyName>FilePath</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>@"SortExcelCellsFunction.pix"</_expression>
@@ -911,18 +1051,18 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i95">
+              <PropertyValue z:Id="i111">
                 <PropertyName>Parameters</PropertyName>
                 <_dataType>Value</_dataType>
                 <_expression i:nil="true" />
                 <_screenShotBase64 i:nil="true" />
                 <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d9p1:ArrayOfArgumentItem">
-                  <d9p1:ArgumentItem z:Id="i96">
+                  <d9p1:ArgumentItem z:Id="i112">
                     <d9p1:ArgumentName>in_lst_cellAddresses</d9p1:ArgumentName>
                     <d9p1:Expression>lst_extraResponsible_column</d9p1:Expression>
                     <d9p1:Type>List&lt;System.String&gt;</d9p1:Type>
                   </d9p1:ArgumentItem>
-                  <d9p1:ArgumentItem z:Id="i97">
+                  <d9p1:ArgumentItem z:Id="i113">
                     <d9p1:ArgumentName>out_lst_sorted</d9p1:ArgumentName>
                     <d9p1:Expression>lst_extraResponsible_column</d9p1:Expression>
                     <d9p1:Type>List&lt;System.String&gt;</d9p1:Type>
@@ -939,12 +1079,12 @@
             <Text>Сортировать lst_extraResponsible_column</Text>
             <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i98" i:type="ExecutedStep">
+          <AbstractStep z:Id="i114" i:type="ExecutedStep">
             <Childs />
             <Id>55365a81-80cb-43cc-8b11-8039a5fe4fc4</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i99">
+              <PropertyValue z:Id="i115">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>Regex.Replace(lst_foundCode[0], @"\D", "")</_expression>
@@ -952,7 +1092,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i100">
+              <PropertyValue z:Id="i116">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_currentRow</_expression>
@@ -969,12 +1109,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i101" i:type="ExecutedStep">
+          <AbstractStep z:Id="i117" i:type="ExecutedStep">
             <Childs />
             <Id>706b49e4-b397-409c-a0b2-15ea4381324b</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i102">
+              <PropertyValue z:Id="i118">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>Regex.Replace(lst_responsible_column[0], @"\d", "")</_expression>
@@ -982,7 +1122,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i103">
+              <PropertyValue z:Id="i119">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_responsibleColumn</_expression>
@@ -999,12 +1139,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i104" i:type="ExecutedStep">
+          <AbstractStep z:Id="i120" i:type="ExecutedStep">
             <Childs />
             <Id>5d063403-dd51-4cbc-b73f-1362071ad1d8</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i105">
+              <PropertyValue z:Id="i121">
                 <PropertyName>Value</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>Regex.Replace(lst_extraResponsible_column[0], @"\d", "")</_expression>
@@ -1012,7 +1152,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i106">
+              <PropertyValue z:Id="i122">
                 <PropertyName>To</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_extraResponsibleColumn</_expression>
@@ -1029,12 +1169,12 @@
             <Text></Text>
             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i107" i:type="ExecutedStep">
+          <AbstractStep z:Id="i123" i:type="ExecutedStep">
             <Childs />
             <Id>09660af7-9335-4bc0-8f2f-57d26fbf1ef4</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i108">
+              <PropertyValue z:Id="i124">
                 <PropertyName>Cell</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_responsibleColumn+str_currentRow</_expression>
@@ -1042,7 +1182,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i109">
+              <PropertyValue z:Id="i125">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_mainResponsible</_expression>
@@ -1050,7 +1190,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i110">
+              <PropertyValue z:Id="i126">
                 <PropertyName>SheetName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_sheetName</_expression>
@@ -1058,7 +1198,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i111">
+              <PropertyValue z:Id="i127">
                 <PropertyName>FileName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_main_filePath</_expression>
@@ -1075,12 +1215,12 @@
             <Text>Считать значение ячейки с Ответственным</Text>
             <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i112" i:type="ExecutedStep">
+          <AbstractStep z:Id="i128" i:type="ExecutedStep">
             <Childs />
             <Id>4dbcd00b-2218-432c-939c-371670fde63d</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i113">
+              <PropertyValue z:Id="i129">
                 <PropertyName>Cell</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_extraResponsibleColumn+str_currentRow</_expression>
@@ -1088,7 +1228,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i114">
+              <PropertyValue z:Id="i130">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_mainExtraResponsible</_expression>
@@ -1096,7 +1236,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i115">
+              <PropertyValue z:Id="i131">
                 <PropertyName>SheetName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_sheetName</_expression>
@@ -1104,7 +1244,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i116">
+              <PropertyValue z:Id="i132">
                 <PropertyName>FileName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>in_str_main_filePath</_expression>
@@ -1121,156 +1261,15 @@
             <Text>Считать значение ячейки с дополнительным Ответственным</Text>
             <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i117" i:type="ExecutedStep">
+          <AbstractStep z:Id="i133" i:type="ExecutedStep">
             <Childs />
             <Id>1b54add7-e079-4c4c-bcbe-1cd59e8a1f4c</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i118">
+              <PropertyValue z:Id="i134">
                 <PropertyName>DemandValue</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>"Отв-й изменился"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i119">
-                <PropertyName>SheetName</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>in_str_sheetName</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i120">
-                <PropertyName>FileName</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>in_str_main_filePath</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i121">
-                <PropertyName>Result</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>lst_resposibleChanged_column</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId i:nil="true" />
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i122" i:type="ExecutedStep">
-            <Childs />
-            <Id>267c0b67-0949-49ed-9ec0-a72383bcca16</Id>
-            <Parent z:Ref="i63" />
-            <PropertyValues>
-              <PropertyValue z:Id="i123">
-                <PropertyName>FilePath</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>@"SortExcelCellsFunction.pix"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i124">
-                <PropertyName>Parameters</PropertyName>
-                <_dataType>Value</_dataType>
-                <_expression i:nil="true" />
-                <_screenShotBase64 i:nil="true" />
-                <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d9p1:ArrayOfArgumentItem">
-                  <d9p1:ArgumentItem z:Id="i125">
-                    <d9p1:ArgumentName>in_lst_cellAddresses</d9p1:ArgumentName>
-                    <d9p1:Expression>lst_resposibleChanged_column</d9p1:Expression>
-                    <d9p1:Type>List&lt;System.String&gt;</d9p1:Type>
-                  </d9p1:ArgumentItem>
-                  <d9p1:ArgumentItem z:Id="i126">
-                    <d9p1:ArgumentName>out_lst_sorted</d9p1:ArgumentName>
-                    <d9p1:Expression>lst_resposibleChanged_column</d9p1:Expression>
-                    <d9p1:Type>List&lt;System.String&gt;</d9p1:Type>
-                  </d9p1:ArgumentItem>
-                </_value>
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId i:nil="true" />
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text>Сортировать lst_resposibleChanged_column</Text>
-            <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i127" i:type="ExecutedStep">
-            <Childs />
-            <Id>85941cbe-72ce-4bb6-b5be-e3614954d7c8</Id>
-            <Parent z:Ref="i63" />
-            <PropertyValues>
-              <PropertyValue z:Id="i128">
-                <PropertyName>Cell</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>Regex.Replace(lst_resposibleChanged_column[0], @"\d", "")+str_currentRow</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i129">
-                <PropertyName>Result</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>str_responsibleChanged</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i130">
-                <PropertyName>SheetName</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>in_str_sheetName</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i131">
-                <PropertyName>FileName</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>in_str_main_filePath</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId>0</SelectedOptionId>
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text>Считать значение ячейки с Ответственный изменился</Text>
-            <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i132" i:type="ExecutedStep">
-            <Childs />
-            <Id>195dc265-0fd6-4f8a-88d3-c67a2b948393</Id>
-            <Parent z:Ref="i63" />
-            <PropertyValues>
-              <PropertyValue z:Id="i133">
-                <PropertyName>Cell</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>Regex.Replace(lst_resposibleChanged_column[1], @"\d", "")+str_currentRow</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i134">
-                <PropertyName>Result</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>str_extraResponsibleChanged</_expression>
                 <_screenShotBase64 i:nil="true" />
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -1291,6 +1290,147 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
+              <PropertyValue z:Id="i137">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>lst_resposibleChanged_column</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i138" i:type="ExecutedStep">
+            <Childs />
+            <Id>267c0b67-0949-49ed-9ec0-a72383bcca16</Id>
+            <Parent z:Ref="i79" />
+            <PropertyValues>
+              <PropertyValue z:Id="i139">
+                <PropertyName>FilePath</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>@"SortExcelCellsFunction.pix"</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i140">
+                <PropertyName>Parameters</PropertyName>
+                <_dataType>Value</_dataType>
+                <_expression i:nil="true" />
+                <_screenShotBase64 i:nil="true" />
+                <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d9p1:ArrayOfArgumentItem">
+                  <d9p1:ArgumentItem z:Id="i141">
+                    <d9p1:ArgumentName>in_lst_cellAddresses</d9p1:ArgumentName>
+                    <d9p1:Expression>lst_resposibleChanged_column</d9p1:Expression>
+                    <d9p1:Type>List&lt;System.String&gt;</d9p1:Type>
+                  </d9p1:ArgumentItem>
+                  <d9p1:ArgumentItem z:Id="i142">
+                    <d9p1:ArgumentName>out_lst_sorted</d9p1:ArgumentName>
+                    <d9p1:Expression>lst_resposibleChanged_column</d9p1:Expression>
+                    <d9p1:Type>List&lt;System.String&gt;</d9p1:Type>
+                  </d9p1:ArgumentItem>
+                </_value>
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text>Сортировать lst_resposibleChanged_column</Text>
+            <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i143" i:type="ExecutedStep">
+            <Childs />
+            <Id>85941cbe-72ce-4bb6-b5be-e3614954d7c8</Id>
+            <Parent z:Ref="i79" />
+            <PropertyValues>
+              <PropertyValue z:Id="i144">
+                <PropertyName>Cell</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>Regex.Replace(lst_resposibleChanged_column[0], @"\d", "")+str_currentRow</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i145">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_responsibleChanged</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i146">
+                <PropertyName>SheetName</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>in_str_sheetName</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i147">
+                <PropertyName>FileName</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>in_str_main_filePath</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId>0</SelectedOptionId>
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text>Считать значение ячейки с Ответственный изменился</Text>
+            <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i148" i:type="ExecutedStep">
+            <Childs />
+            <Id>195dc265-0fd6-4f8a-88d3-c67a2b948393</Id>
+            <Parent z:Ref="i79" />
+            <PropertyValues>
+              <PropertyValue z:Id="i149">
+                <PropertyName>Cell</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>Regex.Replace(lst_resposibleChanged_column[1], @"\d", "")+str_currentRow</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i150">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>str_extraResponsibleChanged</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i151">
+                <PropertyName>SheetName</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>in_str_sheetName</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i152">
+                <PropertyName>FileName</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>in_str_main_filePath</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
             </PropertyValues>
             <SelectedOptionId>0</SelectedOptionId>
             <AutoCloseMode>None</AutoCloseMode>
@@ -1300,12 +1440,12 @@
             <Text>Считать значение ячейки с доп Ответственный изменился</Text>
             <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i137" i:type="ExecutedStep">
+          <AbstractStep z:Id="i153" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i138" i:type="ExecutedStep">
+              <AbstractStep z:Id="i154" i:type="ExecutedStep">
                 <Childs />
                 <Id>ad2b6deb-2d09-40c6-badb-73a69de0fb18</Id>
-                <Parent z:Ref="i137" />
+                <Parent z:Ref="i153" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
@@ -1315,14 +1455,14 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i139" i:type="ExecutedStep">
+              <AbstractStep z:Id="i155" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i140" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i156" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i141" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i157" i:type="ExecutedStep">
                         <Childs />
                         <Id>5d6b1694-a295-42b0-a45d-3827bbf4f6cd</Id>
-                        <Parent z:Ref="i140" />
+                        <Parent z:Ref="i156" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -1332,14 +1472,14 @@
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i142" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i158" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i143" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i159" i:type="ExecutedStep">
                             <Childs />
                             <Id>3313b1a8-cb03-4add-bc23-e12091696f12</Id>
-                            <Parent z:Ref="i142" />
+                            <Parent z:Ref="i158" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i144">
+                              <PropertyValue z:Id="i160">
                                 <PropertyName>Address</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>str_extraResponsibleColumn+str_currentRow</_expression>
@@ -1347,7 +1487,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i145">
+                              <PropertyValue z:Id="i161">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>str_receivedExtraResponsible.Trim()</_expression>
@@ -1355,7 +1495,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i146">
+                              <PropertyValue z:Id="i162">
                                 <PropertyName>SheetName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>in_str_sheetName</_expression>
@@ -1363,7 +1503,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i147">
+                              <PropertyValue z:Id="i163">
                                 <PropertyName>FileName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>in_str_main_filePath</_expression>
@@ -1380,12 +1520,12 @@
                             <Text>Записать в ячейку нового доп отвественного</Text>
                             <_activityFullName>Activities.Office.Excel.WriteCell</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i148" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i164" i:type="ExecutedStep">
                             <Childs />
                             <Id>7b8242ef-19b2-479a-9fe3-b06feb9f7cff</Id>
-                            <Parent z:Ref="i142" />
+                            <Parent z:Ref="i158" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i149">
+                              <PropertyValue z:Id="i165">
                                 <PropertyName>Address</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>Regex.Replace(lst_resposibleChanged_column[1], @"\d", "")+str_currentRow</_expression>
@@ -1393,7 +1533,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i150">
+                              <PropertyValue z:Id="i166">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>"Да"</_expression>
@@ -1401,7 +1541,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i151">
+                              <PropertyValue z:Id="i167">
                                 <PropertyName>SheetName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>in_str_sheetName</_expression>
@@ -1409,7 +1549,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i152">
+                              <PropertyValue z:Id="i168">
                                 <PropertyName>FileName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>in_str_main_filePath</_expression>
@@ -1428,7 +1568,7 @@
                           </AbstractStep>
                         </Childs>
                         <Id>c70f5808-3989-4b64-bedf-242c6584c501</Id>
-                        <Parent z:Ref="i140" />
+                        <Parent z:Ref="i156" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -1440,9 +1580,9 @@
                       </AbstractStep>
                     </Childs>
                     <Id>36f69408-c9fe-4dbd-ba7f-1b354f6b6c8d</Id>
-                    <Parent z:Ref="i139" />
+                    <Parent z:Ref="i155" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i153">
+                      <PropertyValue z:Id="i169">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>str_extraResponsibleChanged.Trim()=="Да"</_expression>
@@ -1461,7 +1601,7 @@
                   </AbstractStep>
                 </Childs>
                 <Id>c0d57f08-3217-484f-adf5-ef8c1ae4b620</Id>
-                <Parent z:Ref="i137" />
+                <Parent z:Ref="i153" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
@@ -1473,9 +1613,9 @@
               </AbstractStep>
             </Childs>
             <Id>ec273bff-b7df-4c35-b1f4-8fa53127813a</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i154">
+              <PropertyValue z:Id="i170">
                 <PropertyName>Condition</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_mainExtraResponsible==str_receivedExtraResponsible</_expression>
@@ -1492,12 +1632,12 @@
             <Text>Если дополнительные ответственные совпадают</Text>
             <_activityFullName>BR.Core.Base.If</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i155" i:type="ExecutedStep">
+          <AbstractStep z:Id="i171" i:type="ExecutedStep">
             <Childs>
-              <AbstractStep z:Id="i156" i:type="ExecutedStep">
+              <AbstractStep z:Id="i172" i:type="ExecutedStep">
                 <Childs />
                 <Id>3dbeea37-d5ec-4ae2-8c40-f099822a6475</Id>
-                <Parent z:Ref="i155" />
+                <Parent z:Ref="i171" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
@@ -1507,14 +1647,14 @@
                 <Text></Text>
                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i157" i:type="ExecutedStep">
+              <AbstractStep z:Id="i173" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i158" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i174" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i159" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i175" i:type="ExecutedStep">
                         <Childs />
                         <Id>6349160a-6426-4277-99f9-612593419b9a</Id>
-                        <Parent z:Ref="i158" />
+                        <Parent z:Ref="i174" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -1524,14 +1664,14 @@
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i160" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i176" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i161" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i177" i:type="ExecutedStep">
                             <Childs />
                             <Id>e21adb21-d3ba-45f1-80aa-6f7101e83024</Id>
-                            <Parent z:Ref="i160" />
+                            <Parent z:Ref="i176" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i162">
+                              <PropertyValue z:Id="i178">
                                 <PropertyName>Address</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>str_responsibleColumn+str_currentRow</_expression>
@@ -1539,7 +1679,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i163">
+                              <PropertyValue z:Id="i179">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>str_receivedResponsible.Trim()</_expression>
@@ -1547,7 +1687,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i164">
+                              <PropertyValue z:Id="i180">
                                 <PropertyName>SheetName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>in_str_sheetName</_expression>
@@ -1555,7 +1695,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i165">
+                              <PropertyValue z:Id="i181">
                                 <PropertyName>FileName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>in_str_main_filePath</_expression>
@@ -1566,18 +1706,18 @@
                             </PropertyValues>
                             <SelectedOptionId>0</SelectedOptionId>
                             <AutoCloseMode>None</AutoCloseMode>
-                            <EnableStatus>true</EnableStatus>
+                            <EnableStatus>false</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
                             <Text></Text>
                             <_activityFullName>Activities.Office.Excel.WriteCell</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i166" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i182" i:type="ExecutedStep">
                             <Childs />
                             <Id>b84b2701-6946-458e-9be5-8b082f45844a</Id>
-                            <Parent z:Ref="i160" />
+                            <Parent z:Ref="i176" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i167">
+                              <PropertyValue z:Id="i183">
                                 <PropertyName>Address</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>Regex.Replace(lst_resposibleChanged_column[0], @"\d", "")+str_currentRow</_expression>
@@ -1585,7 +1725,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i168">
+                              <PropertyValue z:Id="i184">
                                 <PropertyName>Value</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>"Да"</_expression>
@@ -1593,7 +1733,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i169">
+                              <PropertyValue z:Id="i185">
                                 <PropertyName>SheetName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>in_str_sheetName</_expression>
@@ -1601,7 +1741,7 @@
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-                              <PropertyValue z:Id="i170">
+                              <PropertyValue z:Id="i186">
                                 <PropertyName>FileName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>in_str_main_filePath</_expression>
@@ -1612,34 +1752,34 @@
                             </PropertyValues>
                             <SelectedOptionId>0</SelectedOptionId>
                             <AutoCloseMode>None</AutoCloseMode>
-                            <EnableStatus>true</EnableStatus>
+                            <EnableStatus>false</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
                             <Text></Text>
                             <_activityFullName>Activities.Office.Excel.WriteCell</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i171" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i187" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i172" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i188" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i173" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i189" i:type="ExecutedStep">
                                     <Childs>
-                                      <AbstractStep z:Id="i174" i:type="ExecutedStep">
+                                      <AbstractStep z:Id="i190" i:type="ExecutedStep">
                                         <Childs>
-                                          <AbstractStep z:Id="i175" i:type="ExecutedStep">
+                                          <AbstractStep z:Id="i191" i:type="ExecutedStep">
                                             <Childs />
                                             <Id>7d5a7c30-03f6-4694-9140-ca05018c35a3</Id>
-                                            <Parent z:Ref="i174" />
+                                            <Parent z:Ref="i190" />
                                             <PropertyValues>
-                                              <PropertyValue z:Id="i176">
+                                              <PropertyValue z:Id="i192">
                                                 <PropertyName>Value</PropertyName>
                                                 <_dataType>Expression</_dataType>
-                                                <_expression>Regex.Match(column.ToString(), @"\(\d+\)$").Value</_expression>
+                                                <_expression>int.Parse(Regex.Match(column.ToString(), @"\((\d+)\)$").Groups[1].Value)</_expression>
                                                 <_screenShotBase64 i:nil="true" />
                                                 <_value i:nil="true" />
                                                 <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                               </PropertyValue>
-                                              <PropertyValue z:Id="i177">
+                                              <PropertyValue z:Id="i193">
                                                 <PropertyName>To</PropertyName>
                                                 <_dataType>Expression</_dataType>
                                                 <_expression>int_identificator</_expression>
@@ -1656,9 +1796,320 @@
                                             <Text></Text>
                                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                                           </AbstractStep>
+                                          <AbstractStep z:Id="i194" i:type="ExecutedStep">
+                                            <Childs />
+                                            <Id>339b29c7-4dc6-4de4-b1b4-8148beac674e</Id>
+                                            <Parent z:Ref="i190" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i195">
+                                                <PropertyName>DemandValue</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>Regex.Replace(column, @"\(\d+\)$", "").Trim()</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i196">
+                                                <PropertyName>Result</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>lst_targetColumns</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i197">
+                                                <PropertyName>SheetName</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>in_str_sheetName</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i198">
+                                                <PropertyName>FileName</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>in_str_main_filePath</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text></Text>
+                                            <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i199" i:type="ExecutedStep">
+                                            <Childs />
+                                            <Id>54afc135-63a5-452c-9bb7-1b14a7e80394</Id>
+                                            <Parent z:Ref="i190" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i200">
+                                                <PropertyName>FilePath</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>@"SortExcelCellsFunction.pix"</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i201">
+                                                <PropertyName>Parameters</PropertyName>
+                                                <_dataType>Value</_dataType>
+                                                <_expression i:nil="true" />
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d25p1:ArrayOfArgumentItem">
+                                                  <d25p1:ArgumentItem z:Id="i202">
+                                                    <d25p1:ArgumentName>in_lst_cellAddresses</d25p1:ArgumentName>
+                                                    <d25p1:Expression>lst_targetColumns</d25p1:Expression>
+                                                    <d25p1:Type>List&lt;System.String&gt;</d25p1:Type>
+                                                  </d25p1:ArgumentItem>
+                                                  <d25p1:ArgumentItem z:Id="i203">
+                                                    <d25p1:ArgumentName>out_lst_sorted</d25p1:ArgumentName>
+                                                    <d25p1:Expression>lst_targetColumns</d25p1:Expression>
+                                                    <d25p1:Type>List&lt;System.String&gt;</d25p1:Type>
+                                                  </d25p1:ArgumentItem>
+                                                </_value>
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text>Сортировать lst_targetColumns</Text>
+                                            <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i204" i:type="ExecutedStep">
+                                            <Childs />
+                                            <Id>f9d13895-dd10-43ea-92cf-9f8aed05f0ca</Id>
+                                            <Parent z:Ref="i190" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i205">
+                                                <PropertyName>Value</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>""</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i206">
+                                                <PropertyName>To</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>str_cell_value</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text></Text>
+                                            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i207" i:type="ExecutedStep">
+                                            <Childs />
+                                            <Id>f53f52b1-c2ba-411d-91c4-c3c78991b37e</Id>
+                                            <Parent z:Ref="i190" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i208">
+                                                <PropertyName>Cell</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>Regex.Replace(lst_targetColumns[int_identificator], @"\d", "")+str_currentRow</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i209">
+                                                <PropertyName>IsFormula</PropertyName>
+                                                <_dataType>Value</_dataType>
+                                                <_expression i:nil="true" />
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value xmlns:d25p1="http://www.w3.org/2001/XMLSchema" i:type="d25p1:boolean">true</_value>
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i210">
+                                                <PropertyName>SheetName</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>in_str_sheetName</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i211">
+                                                <PropertyName>FileName</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>in_str_main_filePath</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i212">
+                                                <PropertyName>Result</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>str_cell_value</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId>0</SelectedOptionId>
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text>Считать значение целевой  ячейки</Text>
+                                            <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i213" i:type="ExecutedStep">
+                                            <Childs>
+                                              <AbstractStep z:Id="i214" i:type="ExecutedStep">
+                                                <Childs>
+                                                  <AbstractStep z:Id="i215" i:type="ExecutedStep">
+                                                    <Childs />
+                                                    <Id>b87b9d0f-c583-46f6-b9cd-3b27910846db</Id>
+                                                    <Parent z:Ref="i214" />
+                                                    <PropertyValues />
+                                                    <SelectedOptionId i:nil="true" />
+                                                    <AutoCloseMode>None</AutoCloseMode>
+                                                    <EnableStatus>true</EnableStatus>
+                                                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                    <RetryCount>-1</RetryCount>
+                                                    <Text></Text>
+                                                    <_activityFullName>BR.Core.Base.ContinueLoop</_activityFullName>
+                                                  </AbstractStep>
+                                                </Childs>
+                                                <Id>da950835-a09d-4e84-8e83-1a15ec37419b</Id>
+                                                <Parent z:Ref="i213" />
+                                                <PropertyValues />
+                                                <SelectedOptionId i:nil="true" />
+                                                <AutoCloseMode>None</AutoCloseMode>
+                                                <EnableStatus>true</EnableStatus>
+                                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                <RetryCount>-1</RetryCount>
+                                                <Text></Text>
+                                                <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                                              </AbstractStep>
+                                              <AbstractStep z:Id="i216" i:type="ExecutedStep">
+                                                <Childs>
+                                                  <AbstractStep z:Id="i217" i:type="ExecutedStep">
+                                                    <Childs />
+                                                    <Id>14371f80-548c-4d8b-a7a0-bf401fe8d6f3</Id>
+                                                    <Parent z:Ref="i216" />
+                                                    <PropertyValues>
+                                                      <PropertyValue z:Id="i218">
+                                                        <PropertyName>Level</PropertyName>
+                                                        <_dataType>Value</_dataType>
+                                                        <_expression i:nil="true" />
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d29p1:LogLevel">Trace</_value>
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                      <PropertyValue z:Id="i219">
+                                                        <PropertyName>Text</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>@"Записано значение " + row[column.ToString()].ToString() + " в ячейку" + Regex.Replace(lst_targetColumns[int_identificator], @"\d", "")+str_currentRow</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                    </PropertyValues>
+                                                    <SelectedOptionId i:nil="true" />
+                                                    <AutoCloseMode>None</AutoCloseMode>
+                                                    <EnableStatus>true</EnableStatus>
+                                                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                    <RetryCount>-1</RetryCount>
+                                                    <Text></Text>
+                                                    <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
+                                                  </AbstractStep>
+                                                  <AbstractStep z:Id="i220" i:type="ExecutedStep">
+                                                    <Childs />
+                                                    <Id>aa31e460-1108-4c7d-a8a1-f7a5df3e7ab7</Id>
+                                                    <Parent z:Ref="i216" />
+                                                    <PropertyValues>
+                                                      <PropertyValue z:Id="i221">
+                                                        <PropertyName>Address</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>Regex.Replace(lst_targetColumns[int_identificator], @"\d", "")+str_currentRow</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                      <PropertyValue z:Id="i222">
+                                                        <PropertyName>Value</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>row[column.ToString()].ToString()</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                      <PropertyValue z:Id="i223">
+                                                        <PropertyName>SheetName</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>in_str_sheetName</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                      <PropertyValue z:Id="i224">
+                                                        <PropertyName>FileName</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>in_str_main_filePath</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                    </PropertyValues>
+                                                    <SelectedOptionId>0</SelectedOptionId>
+                                                    <AutoCloseMode>None</AutoCloseMode>
+                                                    <EnableStatus>true</EnableStatus>
+                                                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                    <RetryCount>-1</RetryCount>
+                                                    <Text></Text>
+                                                    <_activityFullName>Activities.Office.Excel.WriteCell</_activityFullName>
+                                                  </AbstractStep>
+                                                </Childs>
+                                                <Id>caf4572c-68ea-4aa4-afc0-a8490f5144f3</Id>
+                                                <Parent z:Ref="i213" />
+                                                <PropertyValues />
+                                                <SelectedOptionId i:nil="true" />
+                                                <AutoCloseMode>None</AutoCloseMode>
+                                                <EnableStatus>true</EnableStatus>
+                                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                <RetryCount>-1</RetryCount>
+                                                <Text></Text>
+                                                <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                                              </AbstractStep>
+                                            </Childs>
+                                            <Id>41e66ea2-40e7-49e0-ade7-4eae087c33b1</Id>
+                                            <Parent z:Ref="i190" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i225">
+                                                <PropertyName>Condition</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>str_cell_value != " " &amp;&amp; str_cell_value != ""</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text>Если стоит формула</Text>
+                                            <_activityFullName>BR.Core.Base.If</_activityFullName>
+                                          </AbstractStep>
                                         </Childs>
                                         <Id>23224c7e-68f6-4553-8f6c-0b9a5d2b6b58</Id>
-                                        <Parent z:Ref="i173" />
+                                        <Parent z:Ref="i189" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
                                         <AutoCloseMode>None</AutoCloseMode>
@@ -1668,10 +2119,322 @@
                                         <Text></Text>
                                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                                       </AbstractStep>
-                                      <AbstractStep z:Id="i178" i:type="ExecutedStep">
-                                        <Childs />
+                                      <AbstractStep z:Id="i226" i:type="ExecutedStep">
+                                        <Childs>
+                                          <AbstractStep z:Id="i227" i:type="ExecutedStep">
+                                            <Childs />
+                                            <Id>0e16ff9f-07fa-4b9c-89d0-5134d70ce45e</Id>
+                                            <Parent z:Ref="i226" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i228">
+                                                <PropertyName>DemandValue</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>column</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i229">
+                                                <PropertyName>Result</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>lst_targetColumns</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i230">
+                                                <PropertyName>SheetName</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>in_str_sheetName</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i231">
+                                                <PropertyName>FileName</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>in_str_main_filePath</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text></Text>
+                                            <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i232" i:type="ExecutedStep">
+                                            <Childs />
+                                            <Id>57705795-c8ec-494f-b97f-d1d6276e5424</Id>
+                                            <Parent z:Ref="i226" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i233">
+                                                <PropertyName>FilePath</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>@"SortExcelCellsFunction.pix"</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i234">
+                                                <PropertyName>Parameters</PropertyName>
+                                                <_dataType>Value</_dataType>
+                                                <_expression i:nil="true" />
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d25p1:ArrayOfArgumentItem">
+                                                  <d25p1:ArgumentItem z:Id="i235">
+                                                    <d25p1:ArgumentName>in_lst_cellAddresses</d25p1:ArgumentName>
+                                                    <d25p1:Expression>lst_targetColumns</d25p1:Expression>
+                                                    <d25p1:Type>List&lt;System.String&gt;</d25p1:Type>
+                                                  </d25p1:ArgumentItem>
+                                                  <d25p1:ArgumentItem z:Id="i236">
+                                                    <d25p1:ArgumentName>out_lst_sorted</d25p1:ArgumentName>
+                                                    <d25p1:Expression>lst_targetColumns</d25p1:Expression>
+                                                    <d25p1:Type>List&lt;System.String&gt;</d25p1:Type>
+                                                  </d25p1:ArgumentItem>
+                                                </_value>
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text>Сортировать lst_targetColumns</Text>
+                                            <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i237" i:type="ExecutedStep">
+                                            <Childs />
+                                            <Id>bd561e1f-9263-4856-8c69-0f462e056a21</Id>
+                                            <Parent z:Ref="i226" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i238">
+                                                <PropertyName>Value</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>""</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i239">
+                                                <PropertyName>To</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>str_cell_value</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text></Text>
+                                            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i240" i:type="ExecutedStep">
+                                            <Childs />
+                                            <Id>dcfd8642-e6ed-493d-a0d4-eb23ce316c0d</Id>
+                                            <Parent z:Ref="i226" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i241">
+                                                <PropertyName>Cell</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>Regex.Replace(lst_targetColumns[0], @"\d", "")+str_currentRow</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i242">
+                                                <PropertyName>IsFormula</PropertyName>
+                                                <_dataType>Value</_dataType>
+                                                <_expression i:nil="true" />
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value xmlns:d25p1="http://www.w3.org/2001/XMLSchema" i:type="d25p1:boolean">true</_value>
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i243">
+                                                <PropertyName>SheetName</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>in_str_sheetName</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i244">
+                                                <PropertyName>FileName</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>in_str_main_filePath</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                              <PropertyValue z:Id="i245">
+                                                <PropertyName>Result</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>str_cell_value</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId>0</SelectedOptionId>
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text>Считать значение целевой ячейки</Text>
+                                            <_activityFullName>Activities.Office.Excel.ReadCell</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i246" i:type="ExecutedStep">
+                                            <Childs>
+                                              <AbstractStep z:Id="i247" i:type="ExecutedStep">
+                                                <Childs>
+                                                  <AbstractStep z:Id="i248" i:type="ExecutedStep">
+                                                    <Childs />
+                                                    <Id>a6413328-dde2-49a8-91f4-54b8ab1d4372</Id>
+                                                    <Parent z:Ref="i247" />
+                                                    <PropertyValues />
+                                                    <SelectedOptionId i:nil="true" />
+                                                    <AutoCloseMode>None</AutoCloseMode>
+                                                    <EnableStatus>true</EnableStatus>
+                                                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                    <RetryCount>-1</RetryCount>
+                                                    <Text></Text>
+                                                    <_activityFullName>BR.Core.Base.ContinueLoop</_activityFullName>
+                                                  </AbstractStep>
+                                                </Childs>
+                                                <Id>d66aa755-feab-448c-9b06-8af6d17d5de8</Id>
+                                                <Parent z:Ref="i246" />
+                                                <PropertyValues />
+                                                <SelectedOptionId i:nil="true" />
+                                                <AutoCloseMode>None</AutoCloseMode>
+                                                <EnableStatus>true</EnableStatus>
+                                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                <RetryCount>-1</RetryCount>
+                                                <Text></Text>
+                                                <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                                              </AbstractStep>
+                                              <AbstractStep z:Id="i249" i:type="ExecutedStep">
+                                                <Childs>
+                                                  <AbstractStep z:Id="i250" i:type="ExecutedStep">
+                                                    <Childs />
+                                                    <Id>0170e764-7337-4d8e-98b5-aae13edb3b88</Id>
+                                                    <Parent z:Ref="i249" />
+                                                    <PropertyValues>
+                                                      <PropertyValue z:Id="i251">
+                                                        <PropertyName>Level</PropertyName>
+                                                        <_dataType>Value</_dataType>
+                                                        <_expression i:nil="true" />
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d29p1:LogLevel">Warn</_value>
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                      <PropertyValue z:Id="i252">
+                                                        <PropertyName>Text</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>@"Записано значение " + row[column].ToString() + " в ячейку " + Regex.Replace(lst_targetColumns[0], @"\d", "")+str_currentRow</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                    </PropertyValues>
+                                                    <SelectedOptionId i:nil="true" />
+                                                    <AutoCloseMode>None</AutoCloseMode>
+                                                    <EnableStatus>true</EnableStatus>
+                                                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                    <RetryCount>-1</RetryCount>
+                                                    <Text></Text>
+                                                    <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
+                                                  </AbstractStep>
+                                                  <AbstractStep z:Id="i253" i:type="ExecutedStep">
+                                                    <Childs />
+                                                    <Id>3fb5f942-c454-440c-be15-8a00832a1d06</Id>
+                                                    <Parent z:Ref="i249" />
+                                                    <PropertyValues>
+                                                      <PropertyValue z:Id="i254">
+                                                        <PropertyName>Address</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>Regex.Replace(lst_targetColumns[0], @"\d", "")+str_currentRow</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                      <PropertyValue z:Id="i255">
+                                                        <PropertyName>Value</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>row[column].ToString()</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                      <PropertyValue z:Id="i256">
+                                                        <PropertyName>SheetName</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>in_str_sheetName</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                      <PropertyValue z:Id="i257">
+                                                        <PropertyName>FileName</PropertyName>
+                                                        <_dataType>Expression</_dataType>
+                                                        <_expression>in_str_main_filePath</_expression>
+                                                        <_screenShotBase64 i:nil="true" />
+                                                        <_value i:nil="true" />
+                                                        <_xpathSettings xmlns:d29p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                      </PropertyValue>
+                                                    </PropertyValues>
+                                                    <SelectedOptionId>0</SelectedOptionId>
+                                                    <AutoCloseMode>None</AutoCloseMode>
+                                                    <EnableStatus>true</EnableStatus>
+                                                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                    <RetryCount>-1</RetryCount>
+                                                    <Text></Text>
+                                                    <_activityFullName>Activities.Office.Excel.WriteCell</_activityFullName>
+                                                  </AbstractStep>
+                                                </Childs>
+                                                <Id>450d669b-3e10-4f3c-941c-f46b77888990</Id>
+                                                <Parent z:Ref="i246" />
+                                                <PropertyValues />
+                                                <SelectedOptionId i:nil="true" />
+                                                <AutoCloseMode>None</AutoCloseMode>
+                                                <EnableStatus>true</EnableStatus>
+                                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                <RetryCount>-1</RetryCount>
+                                                <Text></Text>
+                                                <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                                              </AbstractStep>
+                                            </Childs>
+                                            <Id>5daeb5f2-790a-43ff-82f6-883de61623cc</Id>
+                                            <Parent z:Ref="i226" />
+                                            <PropertyValues>
+                                              <PropertyValue z:Id="i258">
+                                                <PropertyName>Condition</PropertyName>
+                                                <_dataType>Expression</_dataType>
+                                                <_expression>str_cell_value != " " &amp;&amp; str_cell_value != ""</_expression>
+                                                <_screenShotBase64 i:nil="true" />
+                                                <_value i:nil="true" />
+                                                <_xpathSettings xmlns:d25p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                              </PropertyValue>
+                                            </PropertyValues>
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text>Если стоит формула</Text>
+                                            <_activityFullName>BR.Core.Base.If</_activityFullName>
+                                          </AbstractStep>
+                                        </Childs>
                                         <Id>a201b9b3-b625-4c1d-9893-797d73307cf3</Id>
-                                        <Parent z:Ref="i173" />
+                                        <Parent z:Ref="i189" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
                                         <AutoCloseMode>None</AutoCloseMode>
@@ -1683,9 +2446,9 @@
                                       </AbstractStep>
                                     </Childs>
                                     <Id>8d224b48-dd41-4516-b69e-011a94438613</Id>
-                                    <Parent z:Ref="i172" />
+                                    <Parent z:Ref="i188" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i179">
+                                      <PropertyValue z:Id="i259">
                                         <PropertyName>Condition</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>Regex.Match(column.ToString(), @"\(\d+\)$").Success</_expression>
@@ -1704,9 +2467,9 @@
                                   </AbstractStep>
                                 </Childs>
                                 <Id>87acc842-999a-40ef-bd27-5e09d1091653</Id>
-                                <Parent z:Ref="i171" />
+                                <Parent z:Ref="i187" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i180">
+                                  <PropertyValue z:Id="i260">
                                     <PropertyName>Collection</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>lst_changeColumns</_expression>
@@ -1714,7 +2477,7 @@
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-                                  <PropertyValue z:Id="i181">
+                                  <PropertyValue z:Id="i261">
                                     <PropertyName>Iterator</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>column</_expression>
@@ -1722,7 +2485,7 @@
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-                                  <PropertyValue z:Id="i182">
+                                  <PropertyValue z:Id="i262">
                                     <PropertyName>Counter</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression></_expression>
@@ -1741,7 +2504,7 @@
                               </AbstractStep>
                             </Childs>
                             <Id>a5839d93-ed86-448e-ad9f-30ba7c72ef57</Id>
-                            <Parent z:Ref="i160" />
+                            <Parent z:Ref="i176" />
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <AutoCloseMode>None</AutoCloseMode>
@@ -1753,7 +2516,7 @@
                           </AbstractStep>
                         </Childs>
                         <Id>b55a0f40-de96-42e7-b6e3-17524e63e93a</Id>
-                        <Parent z:Ref="i158" />
+                        <Parent z:Ref="i174" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <AutoCloseMode>None</AutoCloseMode>
@@ -1765,9 +2528,9 @@
                       </AbstractStep>
                     </Childs>
                     <Id>b16f8f5e-bd7a-4d17-81e8-35b7d61d6595</Id>
-                    <Parent z:Ref="i157" />
+                    <Parent z:Ref="i173" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i183">
+                      <PropertyValue z:Id="i263">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>str_responsibleChanged.Trim()=="Да"</_expression>
@@ -1786,7 +2549,7 @@
                   </AbstractStep>
                 </Childs>
                 <Id>d1275e8c-49da-4e21-aaf9-2f1f849c8ff7</Id>
-                <Parent z:Ref="i155" />
+                <Parent z:Ref="i171" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
@@ -1798,9 +2561,9 @@
               </AbstractStep>
             </Childs>
             <Id>e87f11ce-35e9-4e44-af1b-fcc27b6d8c1a</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues>
-              <PropertyValue z:Id="i184">
+              <PropertyValue z:Id="i264">
                 <PropertyName>Condition</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_receivedResponsible.Trim() == str_mainResponsible.Trim()</_expression>
@@ -1817,10 +2580,10 @@
             <Text>Если ответственные совпадают</Text>
             <_activityFullName>BR.Core.Base.If</_activityFullName>
           </AbstractStep>
-          <AbstractStep z:Id="i185" i:type="ExecutedStep">
+          <AbstractStep z:Id="i265" i:type="ExecutedStep">
             <Childs />
             <Id>2618bc22-2dc3-43c3-a7c2-e138c6d5f850</Id>
-            <Parent z:Ref="i63" />
+            <Parent z:Ref="i79" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
             <AutoCloseMode>None</AutoCloseMode>
@@ -1834,7 +2597,7 @@
         <Id>138c8e8b-faa5-40aa-b409-3dce44e984f5</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i186">
+          <PropertyValue z:Id="i266">
             <PropertyName>Collection</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>dt_received.Rows</_expression>
@@ -1842,7 +2605,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i187">
+          <PropertyValue z:Id="i267">
             <PropertyName>Iterator</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>row</_expression>
@@ -1850,7 +2613,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i188">
+          <PropertyValue z:Id="i268">
             <PropertyName>Counter</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression></_expression>
@@ -1867,12 +2630,12 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i189" i:type="ExecutedStep">
+      <AbstractStep z:Id="i269" i:type="ExecutedStep">
         <Childs />
         <Id>a17c5068-8ec5-4a3f-9233-73a1792f378f</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i190">
+          <PropertyValue z:Id="i270">
             <PropertyName>DemandValue</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"130491"</_expression>
@@ -1880,7 +2643,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i191">
+          <PropertyValue z:Id="i271">
             <PropertyName>Result</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>test</_expression>
@@ -1888,7 +2651,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i192">
+          <PropertyValue z:Id="i272">
             <PropertyName>SheetName</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Данные"</_expression>
@@ -1896,7 +2659,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i193">
+          <PropertyValue z:Id="i273">
             <PropertyName>FileName</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>@"IN\Общий_отчет_по_запасам_СиМ_ГП_ПФ_ТП_текущ_остаток_на_27_06_25_для.xlsx"</_expression>
@@ -1913,7 +2676,7 @@
         <Text></Text>
         <_activityFullName>Activities.Office.Excel.FindCellsByString</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i194" i:type="ExecutedStep">
+      <AbstractStep z:Id="i274" i:type="ExecutedStep">
         <Childs />
         <Id>ecccf255-53d0-4861-aabf-3cd6900f79bb</Id>
         <Parent z:Ref="i2" />
@@ -1941,37 +2704,36 @@
   <Name>File_Processing.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i195">
+    <Parameter z:Id="i275">
       <DefaultValueExpression>"Данные"</DefaultValueExpression>
       <Description>Навзание целевого листа из конфига</Description>
       <Name>in_str_sheetName</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i196">
+    <Parameter z:Id="i276">
       <DefaultValueExpression>@"IN\АЗАРЕНКОВ_Общий_отчет_по_запасам_СиМ_ГП_ПФ_ТП_текущ_остаток_на_27.xlsx"</DefaultValueExpression>
       <Description>путь до полученного файла с почты</Description>
       <Name>in_str_received_filePath</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i197">
+    <Parameter z:Id="i277">
       <DefaultValueExpression>"Грачев"</DefaultValueExpression>
       <Description></Description>
       <Name>in_str_surname</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i198">
+    <Parameter z:Id="i278">
       <DefaultValueExpression>@"C:\Users\IAFilin\Desktop\Sintec_backup\IN\Общий_отчет_по_запасам_СиМ_ГП_ПФ_ТП_текущ_остаток_на_27_06_25_для.xlsx"</DefaultValueExpression>
       <Description></Description>
       <Name>in_str_main_filePath</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i199">
-      <DefaultValueExpression>@"Проблема по планам от марта (Да \ Нет) пономенкл.;Уходимость (в мес.);Проблема по планам от мая (Да \ Нет) по
-номенкл.;Уходимость (в мес.)(1);Проблема по планам (Да \ Нет) пономенкл.;Уходимость (в мес.)(2);Уходимость (в мес.)(3);Действие;Комментарий;Дата сработки
+    <Parameter z:Id="i279">
+      <DefaultValueExpression>@"Проблема по планам от марта (Да \ Нет) по номенкл.;Уходимость (в мес.);Проблема по планам от мая (Да \ Нет) по номенкл.;Уходимость (в мес.)(1);Проблема по планам (Да \ Нет) по номенкл.;Уходимость (в мес.)(2);Уходимость (в мес.)(3);Действие;Комментарий;Дата сработки
 \ реализации;Потери при вовлечении с удорожанием в другие продукты;Количество на списание, нат.ед.;Сумма на списание, руб.;Количество на продажу, нат.ед.;Сумма на  продажу, руб.;Признак (расчета, сработки)"</DefaultValueExpression>
       <Description></Description>
       <Name>in_str_changeColumns</Name>
@@ -1987,89 +2749,95 @@
   </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
-    <d2p1:Variable z:Id="i200">
+    <d2p1:Variable z:Id="i280">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description>Таблица из полученного excel файла</d2p1:Description>
       <d2p1:Name>dt_received</d2p1:Name>
       <d2p1:TypeString>System.Data.DataTable</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i201">
+    <d2p1:Variable z:Id="i281">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>int_i</d2p1:Name>
       <d2p1:TypeString>System.Int32</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i202">
+    <d2p1:Variable z:Id="i282">
       <d2p1:DefaultValueExpression>new List&lt;string&gt;()</d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>lst_usedNames</d2p1:Name>
       <d2p1:TypeString>System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i203">
+    <d2p1:Variable z:Id="i283">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_baseName</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i204">
+    <d2p1:Variable z:Id="i284">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_newName</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i205">
+    <d2p1:Variable z:Id="i285">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>int_n</d2p1:Name>
       <d2p1:TypeString>System.Int32</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i206">
+    <d2p1:Variable z:Id="i286">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description>Текущее значение из колонки Код</d2p1:Description>
       <d2p1:Name>str_receivedCode</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i207">
+    <d2p1:Variable z:Id="i287">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description>Текущее значение из колонки Отв-й(присланная таблицы)</d2p1:Description>
       <d2p1:Name>str_receivedResponsible</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i208">
+    <d2p1:Variable z:Id="i288">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description>Ответ-й из общей таблицы</d2p1:Description>
       <d2p1:Name>str_mainResponsible</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i209">
+    <d2p1:Variable z:Id="i289">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_currentRow</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i210">
+    <d2p1:Variable z:Id="i290">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_responsibleColumn</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i211">
+    <d2p1:Variable z:Id="i291">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_receivedExtraResponsible</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i212">
+    <d2p1:Variable z:Id="i292">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_extraResponsibleColumn</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i213">
+    <d2p1:Variable z:Id="i293">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>lst_changeColumns</d2p1:Name>
       <d2p1:TypeString>System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i294">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>int_identificator</d2p1:Name>
+      <d2p1:TypeString>System.Int32</d2p1:TypeString>
     </d2p1:Variable>
   </Variables>
   <Version i:nil="true" />
