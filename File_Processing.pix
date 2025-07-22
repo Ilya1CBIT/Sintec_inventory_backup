@@ -15,7 +15,7 @@
             <_dataType>Expression</_dataType>
             <_expression>in_str_changeColumns
     .Split(';')
-    .Select(str_item =&gt; str_item.Trim())
+    .Select(str_item =&gt; str_item)
     .Where(str_item =&gt; !string.IsNullOrEmpty(str_item))
     .ToList()</_expression>
             <_screenShotBase64 i:nil="true" />
@@ -2726,15 +2726,14 @@
       <TypeString>System.String</TypeString>
     </Parameter>
     <Parameter z:Id="i278">
-      <DefaultValueExpression>@"C:\Users\IAFilin\Desktop\Sintec_backup\IN\Общий_отчет_по_запасам_СиМ_ГП_ПФ_ТП_текущ_остаток_на_27_06_25_для.xlsx"</DefaultValueExpression>
+      <DefaultValueExpression>@"IN\Общий_отчет_по_запасам_СиМ_ГП_ПФ_ТП_текущ_остаток_на_27_06_25_для.xlsx"</DefaultValueExpression>
       <Description></Description>
       <Name>in_str_main_filePath</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
     <Parameter z:Id="i279">
-      <DefaultValueExpression>@"Проблема по планам от марта (Да \ Нет) по номенкл.;Уходимость (в мес.);Проблема по планам от мая (Да \ Нет) по номенкл.;Уходимость (в мес.)(1);Проблема по планам (Да \ Нет) по номенкл.;Уходимость (в мес.)(2);Уходимость (в мес.)(3);Действие;Комментарий;Дата сработки
-\ реализации;Потери при вовлечении с удорожанием в другие продукты;Количество на списание, нат.ед.;Сумма на списание, руб.;Количество на продажу, нат.ед.;Сумма на  продажу, руб.;Признак (расчета, сработки)"</DefaultValueExpression>
+      <DefaultValueExpression>@"Проблема по планам от марта (Да \ Нет) по номенкл.;Уходимость (в мес.);Проблема по планам от мая (Да \ Нет) по номенкл.;Уходимость (в мес.)(1);Проблема по планам (Да \ Нет) по номенкл.;Уходимость (в мес.)(2);Уходимость (в мес.)(3);Действие;Комментарий;Дата сработки \ реализации;Потери при вовлечении с удорожанием в другие продукты ;Количество на списание, нат.ед.;Сумма на списание, руб.;Количество на продажу, нат.ед.;Сумма на  продажу, руб.;Признак (расчета, сработки)"</DefaultValueExpression>
       <Description></Description>
       <Name>in_str_changeColumns</Name>
       <RunnerType>None</RunnerType>
