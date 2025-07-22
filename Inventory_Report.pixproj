@@ -63,7 +63,7 @@
   <MasterUploadId i:nil="true" />
   <Name>ReFramework_2.0</Name>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
-    <d2p1:_Build>2</d2p1:_Build>
+    <d2p1:_Build>4</d2p1:_Build>
     <d2p1:_Major>2</d2p1:_Major>
     <d2p1:_Minor>27</d2p1:_Minor>
     <d2p1:_Revision>0</d2p1:_Revision>

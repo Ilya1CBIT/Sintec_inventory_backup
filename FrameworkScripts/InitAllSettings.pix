@@ -52,7 +52,7 @@
             </PropertyValues>
             <SelectedOptionId i:nil="true" />
             <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>false</EnableStatus>
+            <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
             <Text>Путь к папке с проектом</Text>
@@ -84,7 +84,7 @@
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>false</EnableStatus>
+                <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
                 <Text>Папки для создания</Text>
@@ -114,7 +114,7 @@
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>false</EnableStatus>
+                <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
                 <Text>Внешняя папка для создания директорий Results, ErrorScreenshots, TEMP</Text>
@@ -144,7 +144,7 @@
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>false</EnableStatus>
+                <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
                 <Text>Папка с шаблонами (входные excel-файлы, sap-скрипты, vba-макросы и прочие файлы для отработки процесса)</Text>
@@ -174,7 +174,7 @@
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>false</EnableStatus>
+                <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
                 <Text>Папка для результатов работы робота (отчет по транзакциям)</Text>
@@ -204,7 +204,7 @@
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>false</EnableStatus>
+                <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
                 <Text>Папка для скриншотов ошибок</Text>
@@ -236,7 +236,7 @@
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
                     <AutoCloseMode>None</AutoCloseMode>
-                    <EnableStatus>false</EnableStatus>
+                    <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
                     <Text>Присвоить значение</Text>
@@ -266,7 +266,7 @@
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
                     <AutoCloseMode>None</AutoCloseMode>
-                    <EnableStatus>false</EnableStatus>
+                    <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
                     <Text></Text>
@@ -292,7 +292,7 @@
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
                             <AutoCloseMode>None</AutoCloseMode>
-                            <EnableStatus>false</EnableStatus>
+                            <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
                             <Text>Создать папку</Text>
@@ -314,7 +314,7 @@
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
                             <AutoCloseMode>None</AutoCloseMode>
-                            <EnableStatus>false</EnableStatus>
+                            <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
                             <Text></Text>
@@ -360,7 +360,7 @@
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
                     <AutoCloseMode>None</AutoCloseMode>
-                    <EnableStatus>false</EnableStatus>
+                    <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
                     <Text i:nil="true" />
@@ -397,7 +397,7 @@
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>false</EnableStatus>
+                <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
                 <Text></Text>
@@ -437,7 +437,7 @@
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
                 <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>false</EnableStatus>
+                <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
                 <Text></Text>
@@ -449,7 +449,7 @@
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
             <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>false</EnableStatus>
+            <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
             <Text>Создание отсутствующих папок</Text>
@@ -782,7 +782,7 @@
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
             <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>false</EnableStatus>
+            <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
             <Text>Пересоздание папок</Text>
@@ -794,7 +794,7 @@
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text>Создание проектных папок</Text>
@@ -1961,191 +1961,10 @@ Path - данные напрямую из Config.xlsx записываются �
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
-        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-        <RetryCount>-1</RetryCount>
-        <Text>Чтение конфиг файла</Text>
-        <_activityFullName>BR.Core.Base.Container</_activityFullName>
-      </AbstractStep>
-      <AbstractStep z:Id="i188" i:type="ExecutedStep">
-        <Childs>
-          <AbstractStep z:Id="i189" i:type="ExecutedStep">
-            <Childs />
-            <Id>d70a34ad-5c2c-4630-a723-51becc65936b</Id>
-            <Parent z:Ref="i188" />
-            <PropertyValues>
-              <PropertyValue z:Id="i190">
-                <PropertyName>ExchangeConnection</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>connection</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i191">
-                <PropertyName>Login</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>"pix-robot@sintecgroup.ru"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i192">
-                <PropertyName>Domain</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>"oos.ru"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i193">
-                <PropertyName>URL</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>"https://mail.oos.ru/EWS/Exchange.asmx"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i194">
-                <PropertyName>Password</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>"gtF4bc#ph0Pk"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i195">
-                <PropertyName>VersionExchange</PropertyName>
-                <_dataType>Value</_dataType>
-                <_expression i:nil="true" />
-                <_screenShotBase64 i:nil="true" />
-                <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/Microsoft.Exchange.WebServices.Data" i:type="d9p1:ExchangeVersion">Exchange2013</_value>
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i196">
-                <PropertyName>CustomEmail</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>"rpa-robot-01"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId>0</SelectedOptionId>
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>Activities.Exchange.Email.ConnectToExchange</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i197" i:type="ExecutedStep">
-            <Childs />
-            <Id>9a278743-6f61-41e1-9bbb-2c61f7dd8135</Id>
-            <Parent z:Ref="i188" />
-            <PropertyValues>
-              <PropertyValue z:Id="i198">
-                <PropertyName>Subject</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>"Test1"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i199">
-                <PropertyName>Text</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>"Test1"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i200">
-                <PropertyName>Recipients</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>"pix-robot@sintecgroup.ru"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i201">
-                <PropertyName>DeliveryReportRequested</PropertyName>
-                <_dataType>Value</_dataType>
-                <_expression i:nil="true" />
-                <_screenShotBase64 i:nil="true" />
-                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">true</_value>
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i202">
-                <PropertyName>ExchangeConnection</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>connection</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId>2</SelectedOptionId>
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>false</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>Activities.Exchange.Email.SendMail</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i203" i:type="ExecutedStep">
-            <Childs />
-            <Id>aabe2be2-1cfe-4bb9-9135-99588ef85951</Id>
-            <Parent z:Ref="i188" />
-            <PropertyValues>
-              <PropertyValue z:Id="i204">
-                <PropertyName>EmailMessages</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>list</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i205">
-                <PropertyName>ExchangeConnection</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>connection</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId>2</SelectedOptionId>
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>Activities.Exchange.Email.GetMessage</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i206" i:type="ExecutedStep">
-            <Childs />
-            <Id>caeb1461-5016-45e8-a2ef-25b790772202</Id>
-            <Parent z:Ref="i188" />
-            <PropertyValues />
-            <SelectedOptionId>0</SelectedOptionId>
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
-          </AbstractStep>
-        </Childs>
-        <Id>c4c2e06a-6d6f-4fa6-91bd-c7cb17dca01d</Id>
-        <Parent z:Ref="i2" />
-        <PropertyValues />
-        <SelectedOptionId i:nil="true" />
-        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
-        <Text></Text>
+        <Text>Чтение конфиг файла</Text>
         <_activityFullName>BR.Core.Base.Container</_activityFullName>
       </AbstractStep>
     </Childs>
@@ -2165,42 +1984,42 @@ Path - данные напрямую из Config.xlsx записываются �
     <d2p1:string>PIX.Core.Exceptions</d2p1:string>
   </Namespaces>
   <Params>
-    <Parameter z:Id="i207">
+    <Parameter z:Id="i188">
       <DefaultValueExpression>@"Data\Config.xlsx"</DefaultValueExpression>
       <Description></Description>
       <Name>str_configFile</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i208">
+    <Parameter z:Id="i189">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_config</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i209">
+    <Parameter z:Id="i190">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>bool_isProd==true - робот работает в продуктиве. bool_isProd==false - робот в предпродуктиве или тесте</Description>
       <Name>bool_isProd</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i210">
+    <Parameter z:Id="i191">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>bool_isPredProd==true - робот работает в предпродуктиве. bool_isPredProd==false - робот в продуктиве или тесте.</Description>
       <Name>bool_isPredProd</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i211">
+    <Parameter z:Id="i192">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_secureData</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Security.SecureString, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i212">
+    <Parameter z:Id="i193">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_paths</Name>
@@ -2209,7 +2028,7 @@ Path - данные напрямую из Config.xlsx записываются �
     </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
-    <d2p1:_Build>2</d2p1:_Build>
+    <d2p1:_Build>4</d2p1:_Build>
     <d2p1:_Major>2</d2p1:_Major>
     <d2p1:_Minor>27</d2p1:_Minor>
     <d2p1:_Revision>0</d2p1:_Revision>
